@@ -2,13 +2,29 @@
 layout: default
 
 ---
-    <h3>The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.
+{% assign sorted_members = site.data.members | sort: 'id' %}
+{% assign faculty = sorted_members | where:"status","shifu" %}
+{% assign goel = faculty | first %}
 
-    </h3>
+{% assign member = goel %}
 
+<div class="row">
+  <div class="member-badge col-sm-4 col-sm-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+  </div>
+  <div class="member-badge col-md-6 col-sm-6 col-xs-8">
+    <div class="details">
+      <h3>Mayank Goel is an Associate Professor in the Software and Societal Systems Department (S3D) and Human-Computer Interaction Institute (HCII) in the School of Computer Science at CMU. His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, Sensing, Signal Processing, and Applications of Machine Learning. He regularly collaborates with mechanical and biomedical engineers as well as doctors, nurses, and community health workers. Some of his inventions are deployed in clinics around the world and licensed to several companies. He received his Ph.D. in Computer Science and Engineering from the University of Washington, M.S. in Computer Science from the Georgia Institute of Technology, and B.Tech. in CSE from GGS Indraprastha University, India. 
+</h3>
+
+    </div>
+  </div>
+</div>
     <h3>
-    	We are always looking to work with great students. If you are interested in contributing to research in our lab, fill this <a href="https://forms.gle/yCU88JFYAMZSsT8X8" target="_blank"> form</a> out. 
+      The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.
+
     </h3>
+
 
  
 <script>
