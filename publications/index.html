@@ -41,6 +41,8 @@ redirect_from:
 
 {% capture last_year %}{{ this_year }}{% endcapture %}
 
+{% if pub.authors contains "goel" %}
+
 
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
@@ -115,6 +117,7 @@ redirect_from:
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+{% endif %}
 {% endfor %}
 
 </div>
