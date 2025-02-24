@@ -10,25 +10,6 @@
 
 # Grad Students
 
-- id: bedri
-  name: Abdelkareem Bedri
-  image: /images/members/bedri.png
-  email: bedri@cmu.edu
-  website: https://sites.google.com/view/abdelkareembedri
-  degree: Ph.D. Student
-  affiliation: Apple
-  status: alumni
-  dissertation: /pdfs/bedri_dissertation.pdf
-
-- id: khurana
-  name: Rushil Khurana
-  image: /images/members/khurana.png
-  email: rushil@cmu.edu
-  website: http://rushil.fyi
-  degree: Ph.D. Student
-  affiliation: Allen Institute (AI2)
-  status: alumni
-  dissertation: /pdfs/khurana_dissertation.pdf
 
 - id: arakawa
   name: Riku Arakawa
@@ -57,7 +38,34 @@
   affiliation: HCII
   status: current
 
-- id: ahuja
+
+
+# Other Collaborators
+
+
+# Alumni
+
+- id: bedri
+  name: Abdelkareem Bedri
+  image: /images/members/bedri.png
+  email: bedri@cmu.edu
+  website: https://sites.google.com/view/abdelkareembedri
+  degree: Ph.D. Student
+  affiliation: Apple
+  status: alumni
+  dissertation: /pdfs/bedri_dissertation.pdf
+
+- id: khurana
+  name: Rushil Khurana
+  image: /images/members/khurana.png
+  email: rushil@cmu.edu
+  website: http://rushil.fyi
+  degree: Ph.D. Student
+  affiliation: Allen Institute (AI2)
+  status: alumni
+  dissertation: /pdfs/khurana_dissertation.pdf
+
+  - id: ahuja
   name: Karan Ahuja
   image: /images/members/ahuja.png
   email: kahuja@cs.cmu.edu
@@ -89,12 +97,6 @@
   status: alumni
   dissertation: /pdfs/ramos_dissertation.pdf
 
-
-# Other Collaborators
-
-
-
-
 - id: adhikary
   name: Rishiraj Adhikary
   image: /images/members/rishiraj.jpg
@@ -102,7 +104,9 @@
   website: https://rishi-a.github.io
   degree: Ph.D. Student
   affiliation: IIT_Gandhinagar
-  status: current
+  status: alumni
+  
+
 
 # Past Collaborators
 
@@ -152,7 +156,7 @@
 
 
 
-# Alumni
+
 
 
 # Past masters
