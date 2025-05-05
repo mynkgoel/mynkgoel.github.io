@@ -10,10 +10,9 @@
 
 # Grad Students
 
-
 - id: arakawa
   name: Riku Arakawa
-  image: /images/members/AD395DC6-194D-4070-B017-0C920E4EF8AB.jpeg
+  image: /images/members/arakawa.png
   email: rarakawa@andrew.cmu.edu
   website: https://rikky0611.github.io/
   degree: Ph.D. Student
@@ -29,6 +28,15 @@
   affiliation: sc
   status: current
 
+- id: bali
+  name: Shreya Bali
+  image: /images/members/bali.png
+  email: sbali@andrew.cmu.edu
+  website: https://sbali11.github.io/
+  degree: Ph.D. Student
+  affiliation: HCII
+  status: current
+
 - id: mollyn
   name: Vimal Mollyn
   image: /images/members/vimal.png
@@ -38,34 +46,27 @@
   affiliation: HCII
   status: current
 
-
-
-# Other Collaborators
-
-
-# Alumni
-
-- id: bedri
-  name: Abdelkareem Bedri
-  image: /images/members/bedri.png
-  email: bedri@cmu.edu
-  website: https://sites.google.com/view/abdelkareembedri
+- id: shrivastava
+  name: Ayush Shrivastava 
+  image: /images/members/ayush.jpg
+  email: shrivastavaayush@iitgn.ac.in
+  website: https://ayushshrivstava.github.io/
   degree: Ph.D. Student
-  affiliation: Apple
-  status: alumni
-  dissertation: /pdfs/bedri_dissertation.pdf
+  affiliation: IIT_Gandhinagar
+  status: current
 
-- id: khurana
-  name: Rushil Khurana
-  image: /images/members/khurana.png
-  email: rushil@cmu.edu
-  website: http://rushil.fyi
-  degree: Ph.D. Student
-  affiliation: Allen Institute (AI2)
-  status: alumni
-  dissertation: /pdfs/khurana_dissertation.pdf
+- id: patidar
+  name: Prasoon Patidar
+  image: /images/members/prasoon.png
+  email: ppatida2@andrew.cmu.edu
+  website: https://prasoonpatidar.com
+  degree: Ph.D. Student (advised by Yuvraj Agarwal)
+  affiliation: sc
+  status: current
 
-  - id: ahuja
+# phd alums
+
+- id: ahuja
   name: Karan Ahuja
   image: /images/members/ahuja.png
   email: kahuja@cs.cmu.edu
@@ -97,18 +98,52 @@
   status: alumni
   dissertation: /pdfs/ramos_dissertation.pdf
 
+- id: bedri
+  name: Abdelkareem Bedri
+  image: /images/members/bedri.png
+  email: bedri@cmu.edu
+  website: https://sites.google.com/view/abdelkareembedri
+  degree: Ph.D. Student
+  affiliation: Apple
+  status: alumni
+  dissertation: /pdfs/bedri_dissertation.pdf
+
+- id: khurana
+  name: Rushil Khurana
+  image: /images/members/khurana.png
+  email: rushil@cmu.edu
+  website: http://rushil.fyi
+  degree: Ph.D. Student
+  affiliation: Allen Institute (AI2)
+  status: alumni
+  dissertation: /pdfs/khurana_dissertation.pdf
+
 - id: adhikary
   name: Rishiraj Adhikary
-  image: /images/members/rishiraj.jpg
+  image: /images/members/rishiraj.png
   email: rishiraj.a@iitgn.ac.in
   website: https://rishi-a.github.io
   degree: Ph.D. Student
   affiliation: IIT_Gandhinagar
   status: alumni
-  
+
+# Other Collaborators
+
+
+
+
 
 
 # Past Collaborators
+
+- id: mao
+  name: Hongyu Mao
+  image: /images/members/mao.png
+  email: hongyum1219@gmail.com
+  website: http://hongymao.com
+  degree: Masters Student
+  affiliation: CD
+  status: past_collab
 
 - id: yu
   name: Catherine Tianhong Yu
@@ -131,7 +166,7 @@
 - id: zac
   name: Zac Yu
   image: /images/members/zac.png
-  affiliation: Engineer at Google
+  affiliation: Engineer at Duolingo
   email: me@zacyu.com
   website: https://zacyu.com
   status: past_collab
@@ -156,7 +191,7 @@
 
 
 
-
+# Alumni
 
 
 # Past masters
