@@ -23,17 +23,13 @@ layout: default
   </div>
 
 </div>
-<h3>Current Ph.D. Students</h3>
+<h2>Current Ph.D. Students</h2>
 <div class="row">
 {% for member in current_phds %}
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
   {% assign degree = member.degree %}
-
   <div class="member-badge col-md-3 col-sm-3 col-xs-4">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
-      <div class="degree">{% if member.degree != nil %}{{ degree }}{% endif %}</div>
-      <div class="affiliation">{% if member.affiliation != nil %}{{ affiliation }}{% endif %}</div>
-      <div class="email">{% if member.email != nil %}<span><a href="mailto::{{ member.email }}">{{ member.email }}</a></span>{% endif %} </div>
   </div>
 {% endfor %}
 </div>
