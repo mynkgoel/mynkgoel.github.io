@@ -20,7 +20,9 @@ layout: default
 
     </div>
   </div>
-  <h1>Current Ph.D. Students and Regular Collaborators</h1>
+
+</div>
+<h1>Current Ph.D. Students and Regular Collaborators</h1>
 <div class="row">
 {% for member in current_members %}
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
@@ -38,7 +40,6 @@ layout: default
 {% endfor %}
 </div>
 
-</div>
 <!--
     <h2>
       Test Heading
