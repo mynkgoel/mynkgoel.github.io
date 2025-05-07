@@ -24,13 +24,7 @@ layout: default
 <h2>Current Ph.D. Students</h2>
 <!-- <div class="row"> -->
 {% for member in current_phds %}
-<!--   <div class="member-badge col-md-3 col-sm-3 col-xs-4">
-      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
-  </div>
- -->  
- <div class="current_phds col-md-10 col-sm-9 col-xs-12">
-    {{ member.name }}
-        </div>
+{{ member.name }}
 {% endfor %}
 <!-- </div> -->
 </div>
