@@ -4,7 +4,7 @@ layout: default
 ---
 {% assign sorted_members = site.data.members | sort: 'id' %}
 {% assign faculty = sorted_members | where:"status","shifu" %}
-{% assign current_members = sorted_members | where:"status","current" %}
+{% assign current_phds = sorted_members | where:"status","current" | where:"advisor","goel" %}
 {% assign goel = faculty | first %}
 {% assign alumni = sorted_members | where:"status","alumni" %}
 
@@ -23,9 +23,9 @@ layout: default
   </div>
 
 </div>
-<h3>Current Ph.D. Students and Regular Collaborators</h3>
+<h3>Current Ph.D. Students</h3>
 <div class="row">
-{% for member in current_members %}
+{% for member in current_phds %}
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
   {% assign degree = member.degree %}
 
@@ -41,15 +41,6 @@ layout: default
 {% endfor %}
 </div>
 
-<!--
-    <h2>
-      Test Heading
-    </h2>
-    <h3>
-      The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world. The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.
-
-    </h3>
-  -->
 
 
  
