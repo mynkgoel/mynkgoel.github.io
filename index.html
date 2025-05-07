@@ -4,6 +4,7 @@ layout: default
 ---
 {% assign sorted_members = site.data.members | sort: 'id' %}
 {% assign faculty = sorted_members | where:"status","shifu" %}
+{% assign current_members = sorted_members | where:"status","current" %}
 {% assign goel = faculty | first %}
 {% assign alumni = sorted_members | where:"status","alumni" %}
 
