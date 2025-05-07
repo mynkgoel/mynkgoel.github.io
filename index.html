@@ -21,7 +21,7 @@ layout: default
 <b>Current Ph.D. Students</b>
 {% for member in current_phds %}
 <div>
-{{ member.name }}
+  <img src="{{site.url}}{{member.image}}"/>{{ member.name }}
         </div>
 {% endfor %}
 <!-- </div> -->
