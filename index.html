@@ -21,8 +21,8 @@ layout: default
 <b>Current Ph.D. Students</b>
 {% for member in current_phds %}
 <div>
-  <img src="{{site.url}}{{member.image}}" style="width: 50%;"/>
-{{ member.name }}
+  <img src="{{site.url}}{{member.image}}" style="width: 20%;"/>
+<a href="{{ member.website }}">{{ member.name }},{{ affiliation }}</a>
         </div>
 {% endfor %}
 <!-- </div> -->
