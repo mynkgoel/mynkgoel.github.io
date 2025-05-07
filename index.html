@@ -21,14 +21,16 @@ layout: default
 <span style="font-size: 120%;"> <b>Current Ph.D. Students</b> </span>
 {% for member in current_phds %}
 <div>
-  <a href="{{ member.website }}"><img src="{{site.url}}{{member.image}}" style="width: 20%;"/>{{ member.name }} </a>
+  <a href="{{ member.website }}"><img src="{{site.url}}{{member.image}}" style="width: 20%;"/> {{ member.name }} </a>
         </div>
 {% endfor %}
+
+<br>
 
 <span style="font-size: 120%;"> <b>Ph.D. Alums</b> </span>
 {% for member in alumni %}
 <div>
-  <a href="{{ member.website }}"><img src="{{site.url}}{{member.image}}" style="width: 20%;"/>{{ member.name }} </a>
+  <a href="{{ member.website }}"><img src="{{site.url}}{{member.image}}" style="width: 20%;"/> {{ member.name }} </a>
         </div>
 {% endfor %}
 
