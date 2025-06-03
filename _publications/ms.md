@@ -21,9 +21,9 @@ bibtex: '@inproceedings{chikersal2025ms,
 blurb: "Longitudinal Digital Phenotyping of Multiple Sclerosis Severity Using Passively Sensed Behaviors and Ecological Momentary Assessments: Real-World Evaluation"
 citation: "Zongqi Xia, Prerna Chikersal, Shruthi Venkatesh, Elizabeth Walker, Anind Dey, Mayank Goel. 2025. PLongitudinal Digital Phenotyping of Multiple Sclerosis Severity Using Passively Sensed Behaviors and Ecological Momentary Assessments: Real-World Evaluation. JMIR 2025."
 conference: JMIR 2025
-date: '2025-06-6'
+date: '2025-06-01'
 image: /images/pubs/ms.png
-name: "Digital Phenotyping of Multiple Sclerosis Severity"
+name: "Phenotyping MS Severity"
 onhomepage: true
 pdf: /pdfs/ms.pdf
 thumbnail: /images/pubs/ms.png
