@@ -13,7 +13,7 @@ abstract: "The use of audio and video modalities for Human Activity Recognition 
   \ user\u2019s privacy better. We built and deployed VAX in ten participants\u2019\
   \ homes while they performed 17 common activities of daily living. "
 authors:
-- Prasoon Patidar
+- patidar
 - goel
 - Yuvraj Agarwal
 
@@ -42,7 +42,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: 2023-09-1
 image: /images/pubs/vax.png
 name: VAX
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/vax.pdf
 thumbnail: /images/pubs/vax.png
 title: 'VAX: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap
