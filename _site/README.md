@@ -1,1 +1,0 @@
-# mynkgoel.github.io

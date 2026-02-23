@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introducing FitVids.js – Mayank Goel – </title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    
+    <meta name="author" content="Mayank Goel" />
+
+    
+    <meta property="og:title" content="Introducing FitVids.js" />
+    <meta property="twitter:title" content="Introducing FitVids.js" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bxslider-4/dist/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/bower_components/jquery-migrate/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    
+    
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/bower_components/bxslider-4/dist/jquery.bxslider.min.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mayank Goel - " href="/feed.xml" />
+    
+    
+    
+    <script>
+      function fixNavbar() {
+        if ($(this).scrollTop() > 87 && $(window).width() >= 768) {
+          $("body").addClass("fix-nav");
+          $(".navbar").addClass("navbar-fixed-top");
+          $(".navbar").removeClass("navbar-static-top");
+
+        } else {
+          $("body").removeClass("fix-nav");
+          $(".navbar").addClass("navbar-static-top");
+          $(".navbar").removeClass("navbar-fixed-top");
+        }
+      }
+      $(window).on('resize orientationChange', function(event) {
+        fixNavbar();
+      });
+      $(window).scroll(function(e){
+        // fixNavbar()
+      });
+    </script>
+    
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <body style="margin:0;padding:0;"> 
+          <br><br>
+           <font size="+7" >
+            <div style="width: 450px; height: 40px;  color: black">
+              MAYANK GOEL
+            </div></font>
+         </body>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/publications">PUBLICATIONS</a></li>
+            <li><a href="/teaching">TEACHING</a></li>
+            <li><a href="https://www.dropbox.com/s/2a4r3hytzwpe90z/Mayank%20Goel%20CV.pdf?raw=1">CV</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Introducing FitVids.js</h1>
+
+  <div class="entry">
+    <h1 id="introducing-fitvidsjs">Introducing FitVids.js</h1>
+<p>A lightweight, easy-to-use jQuery plugin for fluid width video embeds.</p>
+
+<p>FitVids automates <a href="http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/">the Intrinsic Ratio Method by Thierry Koblentz</a> to achieve fluid width videos in your responsive web design.</p>
+
+<h2 id="how-do-i-use-it">How Do I Use It?</h2>
+<p>Include jQuery 1.7+ and FitVids.js in your layout and target your videos container with <code class="language-plaintext highlighter-rouge">fitVids()</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jquery.fitvids.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="c1">// Target your .container, .wrapper, .post, etc.</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">#thing-with-videos</span><span class="dl">"</span><span class="p">).</span><span class="nx">fitVids</span><span class="p">();</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>This will wrap each video in a <code class="language-plaintext highlighter-rouge">div.fluid-width-video-wrapper</code> and apply the necessary CSS. After the initial Javascript call, it’s all percentage-based CSS magic.</p>
+
+<h2 id="currently-supported-players">Currently Supported Players</h2>
+<table>
+<tr><td>YouTube</td><td>Y</td></tr>
+<tr><td>Vimeo</td><td>Y</td></tr>
+<tr><td>Blip.tv</td><td>Y</td></tr>
+<tr><td>Viddler</td><td>Y</td></tr>
+<tr><td>Kickstarter</td><td> Y</td></tr>
+</table>
+
+<h2 id="add-your-own-video-vendor">Add Your Own Video Vendor</h2>
+<p>Have a custom video player? We now have a <code class="language-plaintext highlighter-rouge">customSelector</code> option where you can add your own specific video vendor selector (<em>mileage may vary depending on vendor and fluidity of player</em>):</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">#thing-with-videos</span><span class="dl">"</span><span class="p">).</span><span class="nx">fitVids</span><span class="p">({</span> <span class="na">customSelector</span><span class="p">:</span> <span class="dl">"</span><span class="s2">iframe[src^='http://mycoolvideosite.com'], iframe[src^='http://myviiids.com']</span><span class="dl">"</span><span class="p">});</span>
+  <span class="c1">// Selectors are comma separated, just like CSS</span>
+</code></pre></div></div>
+
+<p><em>Note:</em> This will be the quickest way to add your own custom vendor as well as test your player’s compatibility with FitVids.</p>
+
+<h2 id="known-issues">Known issues</h2>
+
+<ul>
+  <li>Vimeo Autoplay API is not compatible with FitVids in IE11. You must manually wrap videos you want to autoplay.</li>
+</ul>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li><em>08.16.13 - v1.0.3 - 2.779k</em>
+    <ul>
+      <li>Optionally works with Zepto</li>
+    </ul>
+  </li>
+  <li><em>09.02.11 - v1.0.2 - 2.376kb</em>
+    <ul>
+      <li>Added <code class="language-plaintext highlighter-rouge">customSelector</code> option</li>
+    </ul>
+  </li>
+  <li><em>09.02.11 - v1.0.0 - 2.135kb</em>
+    <ul>
+      <li>Initial release</li>
+      <li>Vimeo,YouTube, Blip.tv, Viddler, Kickstarter</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+<p>@ChrisCoyier, @davatron5000, @TrentWalton, @raygunray</p>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer container">
+      <footer class="footer">
+        <div class="row">
+          <div class="col-xs-4 text-left"><a href="http://cs.cmu.edu" target="_blank"><img src="/images/SCS.jpg"/></a></div>
+          <div class="col-xs-4 text-center"><a href="https://s3d.cmu.edu" target="_blank"><img src="/images/s3d.png"/></a></div>
+          <div class="col-xs-4 text-right"><a href="http://hcii.cs.cmu.edu" target="_blank"><img src="/images/HCII.png"/></a></div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11604894-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+  </body>
+</html>
