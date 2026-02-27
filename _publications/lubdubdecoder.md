@@ -15,13 +15,13 @@ bibtex: |-
   @article{zhang2025lubdubdecoder,
     title={LubDubDecoder: Bringing Micro-Mechanical Cardiac Monitoring to Hearables},
     author={Zhang, Siqi and Zhang, Xiyuxing and Vu, Duc and Qiang, Tao and Palacios, Clara and Zhu, Jiangyifei and Wang, Yuntao and Goel, Mayank and Chan, Justin},
-    journal={arXiv preprint arXiv:2509.10764},
+    journal={Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)},
     year={2025},
     doi={10.48550/arXiv.2509.10764}
   }
 blurb: Micro-mechanical cardiac monitoring on everyday hearables using acoustic sensing and waveform reconstruction.
 citation: 'Siqi Zhang, Xiyuxing Zhang, Duc Vu, Tao Qiang, Clara Palacios, Jiangyifei Zhu, Yuntao Wang, Mayank Goel, and Justin Chan. 2025. LubDubDecoder: Bringing Micro-Mechanical Cardiac Monitoring to Hearables. arXiv preprint arXiv:2509.10764. https://doi.org/10.48550/arXiv.2509.10764'
-conference: arXiv preprint (cs.HC)
+conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
 date: '2026-01-13'
 image: /images/pubs/lubdubdecoder.png
 thumbnail: /images/pubs/lubdubdecoder.png
