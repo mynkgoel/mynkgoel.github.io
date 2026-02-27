@@ -26,5 +26,5 @@ title: 'Evidotes: Integrating Scientific Evidence and Anecdotes to Support Uncer
 name: Evidotes
 category: health
 year: '2026'
-onhomepage: false
+onhomepage: true
 ---

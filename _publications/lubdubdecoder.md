@@ -22,13 +22,13 @@ bibtex: |-
 blurb: Micro-mechanical cardiac monitoring on everyday hearables using acoustic sensing and waveform reconstruction.
 citation: 'Siqi Zhang, Xiyuxing Zhang, Duc Vu, Tao Qiang, Clara Palacios, Jiangyifei Zhu, Yuntao Wang, Mayank Goel, and Justin Chan. 2025. LubDubDecoder: Bringing Micro-Mechanical Cardiac Monitoring to Hearables. arXiv preprint arXiv:2509.10764. https://doi.org/10.48550/arXiv.2509.10764'
 conference: arXiv preprint (cs.HC)
-date: '2025-09-13'
+date: '2026-01-13'
 image: /images/pubs/lubdubdecoder.png
 thumbnail: /images/pubs/lubdubdecoder.png
 pdf: /pdfs/lubdubdecoder.pdf
 title: 'LubDubDecoder: Bringing Micro-Mechanical Cardiac Monitoring to Hearables'
 name: LubDubDecoder
 category: health
-year: '2025'
-onhomepage: false
+year: '2026'
+onhomepage: true
 ---

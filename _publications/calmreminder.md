@@ -29,5 +29,5 @@ title: 'CalmReminder: A Design Probe for Parental Engagement with Children with 
 name: CalmReminder
 category: health
 year: '2026'
-onhomepage: false
+onhomepage: true
 ---
