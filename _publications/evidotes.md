@@ -24,7 +24,7 @@ thumbnail: /images/pubs/evidotes_thumb.png
 pdf: /pdfs/evidotes.pdf
 title: 'Evidotes: Integrating Scientific Evidence and Anecdotes to Support Uncertainties Triggered by Peer Health Posts'
 name: Evidotes
-category: health
+category: health,interaction
 year: '2026'
 onhomepage: true
 ---
